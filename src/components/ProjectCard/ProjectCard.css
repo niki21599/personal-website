@@ -1,0 +1,161 @@
+.portfolioContainer {
+    padding-top: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    align-items: inherit;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    width: 100%;
+}
+
+.projectDescription {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 16px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+    align-self: flex-end;
+}
+
+.mb-64 {
+    margin-bottom: 64px;
+}
+
+.mr-32 {
+    margin-right: 32px;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.ml-32 {
+    margin-left: 32px;
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.buttonBox {
+    display: flex;
+}
+
+.rightButton {
+    justify-content: right;
+}
+
+.project-foto {
+    width: 500px;
+    height: 321px;
+    object-fit: cover;
+}
+
+.tryLink {
+    border: 1px solid #fa2759;
+    color: #fa2759;
+    text-decoration: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+}
+
+.tryLink:hover {
+    background-color: #fa2759;
+    color: white;
+}
+
+.github {
+    border: 1px solid #2dfcd8;
+    color: #2dfcd8;
+    text-decoration: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+}
+
+.github:hover {
+    border: 1px solid #2dfcd8;
+    color: black;
+    background-color: #2dfcd8;
+}
+
+.subHeadingDescription {
+    margin-top: -16px;
+}
+
+.mt--16 {
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.desc-text {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+@media (max-width: 1180px) {
+    .project-foto {
+        width: 392px;
+    }
+}
+
+@media (max-width: 920px) {
+    .project-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-foto {
+        width: 490px;
+    }
+    .alignCenterResponsive {
+        text-align: center;
+    }
+    .buttonBox {
+        justify-content: center;
+    }
+    .heading-desc {
+        margin-top: 8px;
+    }
+    .projectDescription {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 564px) {
+    .project-foto {
+        width: 392px;
+    }
+    .projectDescription {
+        width: 392px;
+    }
+}
+
+@media (max-width: 564px) {
+    .project-foto {
+        width: 340px;
+    }
+    .projectDescription {
+        width: 340px;
+    }
+}
