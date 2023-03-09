@@ -18,7 +18,7 @@ export default function Home() {
           </a>
         </div>
 
-        <img src="/mywebsite/me5.png" className="home-img" alt="" />
+        <img src="/me5.png" className="home-img" alt="" />
       </div>
       <div className="black-background white arrowDownContainer">
         <a href="#skills">

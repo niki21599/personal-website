@@ -40,7 +40,7 @@ export default function Contact() {
         <h1 className="secondary left smallSize"> Contact Me.</h1>
         <p className="white left mb-24 ">
           Get in touch via the form below or by emailing{" "}
-          <span className="secondary"> niklasburg1999.nb@gmail.com</span>{" "}
+          <span className="secondary"> niklasburg@nb21.de</span>{" "}
         </p>
         <form className="formFields" onSubmit={(e) => sendMail(e)}>
           <div className="white left mb-12">Name</div>

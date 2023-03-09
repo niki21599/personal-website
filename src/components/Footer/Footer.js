@@ -18,13 +18,13 @@ export default function Footer() {
           href="https://www.linkedin.com/in/niklas-burg-566761178/"
           target="_blank"
         >
-          <img src="/mywebsite/linkedin.png" alt="" className="social-img" />
+          <img src="/linkedin.png" alt="" className="social-img" />
         </a>
         <a href="https://github.com/niki21599" target="_blank">
-          <img src="/mywebsite/github.png" alt="" className="social-img" />
+          <img src="/github.png" alt="" className="social-img" />
         </a>
         <a href="https://www.xing.com/profile/Niklas_Burg2/cv" target="_blank">
-          <img src="/mywebsite/xing.png" alt="" className="social-img" />
+          <img src="/xing.png" alt="" className="social-img" />
         </a>
       </div>
     </div>

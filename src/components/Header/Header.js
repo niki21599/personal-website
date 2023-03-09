@@ -17,7 +17,7 @@ export default function Header(props) {
       <div className="header-container">
         <div className="logo">
           {" "}
-          <img className="logo-img" src="/mywebsite/nb-logo.png" alt="" />
+          <img className="logo-img" src="/nb-logo.png" alt="" />
         </div>
         <div className="menu">
           <a
@@ -50,11 +50,7 @@ export default function Header(props) {
         </div>
         <div className="menu-responsive white">
           <img
-            src={
-              props.open
-                ? "/mywebsite/close.png"
-                : "/mywebsite/icons8-menü-60.png"
-            }
+            src={props.open ? "/close.png" : "/icons8-menü-60.png"}
             alt=""
             className="responsive-img"
             onClick={() => {

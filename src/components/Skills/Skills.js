@@ -8,47 +8,47 @@ export default function Skills() {
 
       <div className="skillCardContainer">
         <div className="card">
-          <img src="/mywebsite/js.png" className="skill-img" alt="" />
+          <img src="/js.png" className="skill-img" alt="" />
 
           <div className="skill-text">Javascript</div>
         </div>
         <div className="card">
-          <img src="/mywebsite/react.png" className="skill-img" alt="" />
+          <img src="/react.png" className="skill-img" alt="" />
 
           <div className="skill-text">React</div>
         </div>
         <div className="card">
-          <img src="/mywebsite/html.png" className="skill-img" alt="" />
+          <img src="/html.png" className="skill-img" alt="" />
 
           <div className="skill-text">HTML / CSS</div>
         </div>
         <div className="card">
-          <img src="/mywebsite/scrum.png" className="skill-img" alt="" />
+          <img src="/scrum.png" className="skill-img" alt="" />
 
           <div className="skill-text">SCRUM</div>
         </div>
         <div className="card">
-          <img src="/mywebsite/git.png" className="skill-img" alt="" />
+          <img src="/git.png" className="skill-img" alt="" />
 
           <div className="skill-text">Git</div>
         </div>
         <div className="card">
-          <img src="/mywebsite/python.png" className="skill-img py" alt="" />
+          <img src="/python.png" className="skill-img py" alt="" />
 
           <div className="skill-text">Python</div>
         </div>
         <div className="card">
-          <img src="/mywebsite/rest.png" className="skill-img" alt="" />
+          <img src="/rest.png" className="skill-img" alt="" />
 
           <div className="skill-text">Rest API</div>
         </div>
         <div className="card">
-          <img src="/mywebsite/test.png" className="skill-img" alt="" />
+          <img src="/test.png" className="skill-img" alt="" />
 
           <div className="skill-text"> Test Automation</div>
         </div>
         <div className="card">
-          <img src="/mywebsite/database.png" className="skill-img" alt="" />
+          <img src="/database.png" className="skill-img" alt="" />
 
           <div className="skill-text"> Databases</div>
         </div>
